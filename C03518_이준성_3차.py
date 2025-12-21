@@ -38,7 +38,7 @@ if uploaded:
 
     # 불용어 사전 불러오기
     with open(
-        "data/stopwords-ko.txt",
+        "stopwords-ko.txt",
         "r",
         encoding="utf-8",
     ) as f:
